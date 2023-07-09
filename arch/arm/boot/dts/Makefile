@@ -33,8 +33,9 @@ DTC_FLAGS_stm32mp157f-ev1-m4-examples += -@
 DTC_FLAGS_stm32mp151a-kiwi += -@
 DTC_FLAGS_stm32mp151a-kiwi-a7-examples += -@
 DTC_FLAGS_stm32mp151a-kiwi-m4-examples += -@
-DTC_FLAGS_stm32mp151aaa-thatico-r2x512v11 += -@
 DTC_FLAGS_stm32mp157caa-thatico-r2x512v10 += -@
+DTC_FLAGS_stm32mp151aaa-thatico-r2x512v11 += -@
+DTC_FLAGS_stm32mp151aaa-thatico-r2x512v12 += -@
 
 dtb-$(CONFIG_ARCH_ALPINE) += \
 	alpine-db.dtb
@@ -1130,7 +1131,8 @@ dtb-$(CONFIG_ARCH_STM32) += \
 	stm32mp151a-kiwi-a7-examples.dtb \
 	stm32mp151a-kiwi-m4-examples.dtb \
 	stm32mp157caa-thatico-r2x512v10.dtb \
-	stm32mp151aaa-thatico-r2x512v11.dtb
+	stm32mp151aaa-thatico-r2x512v11.dtb \
+	stm32mp151aaa-thatico-r2x512v12.dtb
 	
 dtb-$(CONFIG_MACH_SUN4I) += \
 	sun4i-a10-a1000.dtb \
