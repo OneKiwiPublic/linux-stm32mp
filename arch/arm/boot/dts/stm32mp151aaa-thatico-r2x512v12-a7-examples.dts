@@ -1,0 +1,26 @@
+// SPDX-License-Identifier: (GPL-2.0-or-later OR BSD-3-Clause)
+/*
+ * Copyright (C) STMicroelectronics 2022 - All Rights Reserved
+ * Author: Alexandre Torgue <alexandre.torgue@foss.st.com> for STMicroelectronics.
+ */
+
+/dts-v1/;
+
+#include "stm32mp151aaa-thatico-r2x512v12.dts"
+
+/ {
+	model = "THATICO STM32MP151AAA3 1GB V1.2 Board configured to run Linux A7";
+	compatible = "st,stm32mp151aaa-thatico-r2x512v12-a7-examples", "st,stm32mp151aaa-thatico-r2x512v12", "st,stm32mp151";
+};
+
+&i2c5 {
+	status = "okay";
+};
+
+&usart2 {
+	status = "okay";
+};
+
+&usart3 {
+	status = "okay";
+};
