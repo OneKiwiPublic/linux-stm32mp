@@ -1259,6 +1259,9 @@ dtb-$(CONFIG_ARCH_STM32) += \
 	stm32mp157f-ev1.dtb \
 	stm32mp157f-ev1-a7-examples.dtb \
 	stm32mp157f-ev1-m4-examples.dtb \
+	stm32mp15xxab-som-v11.dtb \
+	stm32mp15xxab-som-v11-a7-examples.dtb \
+	stm32mp15xxab-som-v11-m4-examples.dtb \
 	stm32mp151aaa-thatico-r2x512v12.dtb \
 	stm32mp151aaa-thatico-r2x512v12-a7-examples.dtb \
 	stm32mp151aaa-thatico-r2x512v12-m4-examples.dtb
