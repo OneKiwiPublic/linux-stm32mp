@@ -1136,7 +1136,8 @@ dtb-$(CONFIG_ARCH_STM32) += \
 	stm32mp157caa-thatico-r2x512v12.dtb \
 	stm32mp151aaa-thatico-r2x512v11.dtb \
 	stm32mp151aaa-thatico-r2x512v12.dtb \
-	stm32mp157aaa-thatico-r2x512v12.dtb
+	stm32mp157aaa-thatico-r2x512v12.dtb \
+	stm32mp157a-som-v11.dtb
 	
 dtb-$(CONFIG_MACH_SUN4I) += \
 	sun4i-a10-a1000.dtb \
